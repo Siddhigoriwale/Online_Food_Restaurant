@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.bgimage {
+  background-image: url('hero-bg.jpg');
+  background-size: cover;
+  height: auto;
+  background-position: right;
+
+  /* background-attachment: fixed; */
+
+}
+
+.image1:hover {
+  transform: scale(1.1., 1.1);
+  overflow: hidden;
+  transition: 2s;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
